@@ -21,6 +21,7 @@ class LoginViewModel extends BaseViewModel {
   TextEditingController confirmPasswordController = TextEditingController();
   bool isPasswordVisible = false;
   bool isConfirmPasswordVisible = false;
+  final formKey = GlobalKey<FormState>();
 
   Future<void> handleAuthTypeChange(AuthType type) async {
     isPasswordVisible = false;
