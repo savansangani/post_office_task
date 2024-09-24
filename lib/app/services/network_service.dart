@@ -22,10 +22,8 @@ class NetworkService {
         }
       }
 
-      print(url);
-
       var res = await http.get(Uri.parse(url));
-      print(res);
+
       if (res.statusCode >= 200 && res.statusCode < 300) {
         return res;
       }
