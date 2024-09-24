@@ -1,7 +1,6 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:get/get.dart';
 import 'package:post_office_task/app/custom/custom_gradient_button.dart';
 import 'package:post_office_task/app/custom/custom_text_form_field.dart';
 import 'package:post_office_task/app/utils/validators/validators.dart';
